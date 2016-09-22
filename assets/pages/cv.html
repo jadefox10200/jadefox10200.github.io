@@ -2,84 +2,40 @@
 <html>
 	<head>
 		<title>Bio Testing</title>
-		<style type="text/css">
-			* {
-				-webkit-box-sizing: border-box;
-			    -moz-box-sizing: border-box;
-			    box-sizing: border-box;
-			}
-			body {
-				padding: 0;
-				margin: 0;
-			}
-			.nav-front{
-				width: 980px;
-				height: 200px;
-				background-color: #aea;
-				position: relative;
-				z-index: 1;
-				margin: auto;
-			}
-
-			.nav-back{
-				width: 100%;
-				height: 200px;
-				position: absolute;
-				top: 0;
-				background-color: #f1f;
-			}
-
-			.nav {
-				
-			}
-			.nav-top-left {				
-				width: 50%;				
-				height: 50%;
-				position: absolute;
-				top: 0;	
-
-			}			
-			
-			span.top-left {
-			   margin-left: 20px;
-			   font-size: 16px;
-			   font-family: sans-serif;
-			   color: #666;
-			   position: absolute;               /* 2 */
-			   top: 50%;                         /* 3 */
-			   transform: translate(0, -50%);
-			}   								/* 4 */
-
-
-			.nav-top-right {				
-				position: absolute;
-				top: 0;
-				left: 50%;
-				width: 50%;				
-				height: 50%;
-			}
-			.nav-middle {
-				border-bottom: 1px solid #eee;
-				width: 90%;
-				margin: auto;
-				z-index: 2;
-				position: relative;
-				top: 50%;
-			}
-		</style>
+		<link href="../css/cv.css" rel="stylesheet">
+		<link rel="stylesheet" href="/assets/css/font-awesome-4.6.3/css/font-awesome.css">
 	</head>
 	<body>
 	<div class="container">
 		<div class="nav">
-			<div class="nav-front">
+			<div class="nav-container-front">
 				<div class="nav-top">
-					<div class="nav-top-left"><span class="top-left">JARRATT SMITH</span></div>
-					<div class="nav-top-right"></div>					
+					<div class="nav-top-left"><span class="top-left">jadefox10200@gmail.com</span></div>
+					<div class="nav-top-right">
+						<div class="top-right">
+							<ul class="nav-li">
+								<li>
+									<a href="https://www.github.com/jadefox10200" target="_blank">
+										<button>
+											<i class="fa fa-github fa-lg" aria-hidden="true"></i> Github
+										</button>
+									</a>
+								</li>
+							</ul>
+
+						</div>
+
+					</div>
 				</div>
-				<div class="nav-middle"></div>
-				<div class="nav-bottom"></div>
+
+				<div class="nav-bottom">
+					<div class="nav-bottom-left"><span class="bottom-left">JARRATT SMITH</span></div>
+					<div class="nav-bottom-right"></div>
+				</div>
 			</div>
-			<div class="nav-back"></div>
+			<div class="nav-container-back">
+				<div class="nav-middle"></div>
+			</div>
 		</div>
 
 
@@ -88,31 +44,3 @@
 	</body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

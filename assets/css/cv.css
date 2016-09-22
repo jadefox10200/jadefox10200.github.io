@@ -156,7 +156,7 @@ span.bottom-left {
 	position: absolute;		
 	height: 720px;
 	background-position: right;	
-	background-image: url("people_working.jpg");	
+	background-image: url("../people_working.jpg");	
 	z-index: 1
 }
 

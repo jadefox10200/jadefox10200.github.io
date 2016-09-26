@@ -113,6 +113,10 @@ span.bottom-left {
 	font-style: lighter;
 }
 
+ul {
+	display: inline;
+}
+
 a {
 	text-decoration: none;
 	color: inherit;

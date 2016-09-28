@@ -132,8 +132,10 @@ a {
 	color: inherit;
 }
 
+
 a.nav-li:hover {
 	text-decoration: underline;
+	color: #bbb;
 }
 button {
 	cursor: pointer;
@@ -422,6 +424,10 @@ button#submit {
 	background-color: transparent;;
 	margin: auto;
 	font-size: 16px;
+}
+
+a:hover {
+	color: #bbb;
 }
 
 input{

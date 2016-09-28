@@ -390,6 +390,10 @@ a.pgm:hover {
 .contact {
 	margin-top: 100px;
 }
+p.line5 {
+	line-height: 1.5;
+	
+}
 
 input {
 	height: 40px;

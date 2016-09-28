@@ -37,7 +37,7 @@
 								<li class="line">
 									<a href="https://www.freecodecamp.com/jadefox10200" target="_blank">
 										<button class="FCC">
-											<i class="fa fa-fire fa-lg" aria-hidden="true"></i>Free Code Cmap
+											<i class="fa fa-fire fa-lg" aria-hidden="true"></i>Free Code Camp
 										</button>
 									</a>
 								</li>
@@ -104,16 +104,16 @@
 
 				<h4 class="bio">My Story</h4>
 				<h2 class="bio">BIO</h2>
-				<p class="bio">
+				<p class="bio line5">
 					I started professionally working at the age of 15. I left home, flew across the nation and landed my first job working on cruise ships in the Caribbean. Starting out as a deckhand I learned what I needed along the way both as a sailer and as a person. By the age of 18, I was the youngest fully qualified Quartermaster in the Caribbean. This is where I learn life skills, learned to manage others and make decisions that could affect the lives of everyone aboard that vessel. Needless to say, I got very accustom to directing others and managing at a very young age.
 				</p>
-				<p class="bio">
+				<p class="bio line5">
 					At the age of 20 I moved back home after 5 years at sea. I got a job as a receptionist at a local Real Estate office. There, I put to use the skills I learned at sea, both as a teammate and executive. After learning the industry a bit, I proposed a new production concept for the office completely different than any other known office. The summary of the implementation of my written out plans was that in 2 years the company expanded dramatically increasing the monthly income by a factor of 50. When I left, I was managing half the company running a team of seven people.
 				</p>
-				<p class="bio">
+				<p class="bio line5">
 					At the age of 23 I then moved to LA in order to marry my wife. I got a job at a print shop that had not yet been built. I was tasked with the duty of purchasing all materials that would be needed to build a 185,000 square foot print facility throughout the renovations. I was then given an entry level position at the print shop and by the time production began I was the head of one of three divisions. In my time there I have literally manufactured hundreds of millions of print items and won four industry awards for quality. I am personally trained in all post-print production manufacturing while additionally qualified to print T-shirts. I also created innovative methods of manufacturing which dropped production times of certain jobs from 4 hours to 30 minutes.
 				</p>
-				<p class="bio">
+				<p class="bio line5">
 					Summary:
 					In each field I have gone to work in, I have started out with no prior knowledge, education or skill in that field. I have a high desire to learn, innovate, collaborate with others and produce high quality products all with the goal of getting more done in less time, utilizing as few resources as possible.
 				</p>
@@ -230,24 +230,25 @@
 		<div id="contact" class="contact-container container_12">
 			<div class="contact left grid_6">
 				<h1>CONTACT</h1>
-				<p>
+				<p class="line5">
 					Thank you for visiting my page. Should you have any questions feel free to contact me. I accept all kinds
 					of questions even if you're just another developer that has a question on how to do something.
 				</p>
-				<p>
+				<p class="line5">
+
 					<a href="mailto:jadefox10200@gmail.com">jadefox10200@gmail.com</a>
 				</p>
 
 			</div>
 			<div class="contact right grid_6">
-				<form>
+				<form method="POST" action="../php/email.php">
 					<input id="name" name="name" type="text" placeholder="Name" required/>
 					<input id="email" name="email" type="email" placeholder="Email" required/>
 					<br />
 					<input id="subject" name="subject" type="text" placeholder="Subject" required/>
 					<textarea id="message" name="message" type="text" placeholder="Message" required></textarea>
 					<div style="text-align:center;">
-						<button id="submit" type="submit" name="contact">Send</button>
+						<input id="submit" type="submit" name="submit">
 					</div>
 
 				</form>

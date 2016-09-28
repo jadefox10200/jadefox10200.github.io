@@ -118,11 +118,11 @@ span.bottom-left {
 	font-style: lighter;
 }
 
-ul {
+ul.line {
 	display: inline;
 }
 
-li {
+li.line {
 	list-style: none;
 	display: inline;
 }
@@ -320,6 +320,10 @@ p.bio {
 	background-color: transparent;
 }
 
+.div5-block {
+	margin-bottom: 50px;
+}
+
 h1.cv {
 	font-size: 32px;
 	font-family: smith;;
@@ -338,4 +342,110 @@ p.cv {
 	width: 90%;
 	font-family: smith;
 	font-weight: lighter;
+}
+
+/*************************************** DIV 6 ****************************************/
+
+.div6-container {
+	font-family: smith;
+	margin-top: 100px;
+}
+
+.div6-container-front {
+	width: 980px;
+	position: relative;
+	margin: auto;
+	padding-left: 20px;
+	background-color: transparent;
+
+}
+
+.div6-box {
+	width: 32px;
+}
+
+a.pgm {
+
+}
+
+a.pgm:hover {
+	color: #bbb;
+}
+
+/*************************************** CONTACT ****************************************/
+
+.contact-container {
+	font-family: smith;
+	clear: both;
+	width: 980px;
+	position: relative;
+	margin: auto;
+	padding-left: 20px;
+	background-color: transparent;
+	height: 500px;
+}
+
+.contact {
+	margin-top: 100px;
+}
+
+input {
+	height: 40px;
+	font-size: 16px;
+	width: 230;
+	border:none;
+	border-bottom: 1px solid black;
+}
+textarea#message {
+	width: 100%;
+	height: 200px;
+	font-size: 16px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+input#subject {
+	width: 100%;
+}
+
+input#name {
+
+	width: 218px;
+	margin-right: 18px;
+}
+input#email {
+	width: 218px;
+	overflow: visible;
+}
+button#submit {
+	border: none;
+	background-color: transparent;;
+	margin: auto;
+	font-size: 16px;
+}
+
+input{
+	margin-top: 5px;
+}
+form {
+	position: relative;
+	top: 15px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+
+footer {
+	height: 200px;
+	position: relative;
 }

@@ -3,6 +3,7 @@
 	<head>
 		<title>Bio Testing</title>
 		<link href="../css/cv.css" rel="stylesheet">
+		<link href="../css/grid.css" rel="stylesheet">
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" /> -->
 		<link rel="stylesheet" href="../css/font-awesome-4.6.3/css/font-awesome.css">
 		<script src="../js/jquery-3.1.1.min.js"></script>
@@ -18,22 +19,22 @@
 					<div class="nav-top-left"><span class="top-left">jadefox10200@gmail.com</span></div>
 					<div class="nav-top-right">
 						<div class="top-right">
-							<ul class="nav-li">
-								<li>
+							<ul class="nav-li line">
+								<li class="line">
 									<a href="https://www.github.com/jadefox10200" target="_blank">
 										<button class="github">
 											<i class="fa fa-github fa-lg" aria-hidden="true"></i> Github
 										</button>
 									</a>
 								</li>
-								<li>
+								<li class="line">
 									<a href="https://www.hackerrank.com/jadefox10200" target="_blank">
 										<button class="hackerrank">
 											Hackerrank
 										</button>
 									</a>
 								</li>
-								<li>
+								<li class="line">
 									<a href="https://www.freecodecamp.com/jadefox10200" target="_blank">
 										<button class="FCC">
 											<i class="fa fa-fire fa-lg" aria-hidden="true"></i>Free Code Cmap
@@ -52,7 +53,7 @@
 							<a href="#home"><li class="nav-li" style="color: #bbb;">Home</li></a>
 							<a href="#bio"><li class="nav-li">Bio</li></a>
 							<a href="#cv"><li class="nav-li">CV</li></a>
-							<a href="#"><li class="nav-li">Contact</li></a>
+							<a href="#contact"><li class="nav-li">Contact</li></a>
 						</ul>
 					</div>
 				</div>
@@ -181,6 +182,80 @@
 				</div>
 			</div>
 		</div>
+		<div class="div6-container" >
+			<div class="div6-container-front container_12">
+				<div class="div6-head">
+					<h1>DEVELOPER EXPERIENCE</h1>
+				</div>
+				<div class="div6-box-container">
+					<div class="div6-box grid_4">
+						<h2 style="font-weight:lighter;">EDUCATION</h2>
+						<p>
+							I'm a self taught developer. I learned through books, projects, CS50, Udemy, building
+							applications, working with other developers and the like. To see my full list of studies,
+							please visit my github repository here: <br><br /> <a class="pgm" href="https://github.com/jadefox10200/My-Code-Path/blob/master/How-I-Learn.md">How I Learned Programming</a>
+						</p>
+
+					</div>
+
+					<div class="div6-box grid_4">
+						<h2 style="font-weight:lighter;">PROJECTS</h2>
+						<p>
+							While working at the print shop there was a huge need for
+							automation in order to get more production through the shop. It was here where I discovered
+							my passion for the subject. As the print world is very secluded and competitive, I
+							won't be able to post any of those projects as they're very innovative. Some of the applications
+							I made saved executives of the shop 3 days of work each week.
+
+						</p>
+
+					</div>
+					<div class="div6-box grid_4">
+						<h2 style="font-weight:lighter;">LANGUAGES</h2>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JAVASCRIPT</li>
+							<li>GO</li>
+							<li>C</li>
+							<li>MYSQL</li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		<div id="contact" class="contact-container container_12">
+			<div class="contact left grid_6">
+				<h1>CONTACT</h1>
+				<p>
+					Thank you for visiting my page. Should you have any questions feel free to contact me. I accept all kinds
+					of questions even if you're just another developer that has a question on how to do something.
+				</p>
+				<p>
+					<a href="mailto:jadefox10200@gmail.com">jadefox10200@gmail.com</a>
+				</p>
+
+			</div>
+			<div class="contact right grid_6">
+				<form>
+					<input id="name" name="name" type="text" placeholder="Name" required/>
+					<input id="email" name="email" type="email" placeholder="Email" required/>
+					<br />
+					<input id="subject" name="subject" type="text" placeholder="Subject" required/>
+					<textarea id="message" name="message" type="text" placeholder="Message" required></textarea>
+					<div style="text-align:center;">
+						<button id="submit" type="submit" name="contact">Send</button>
+					</div>
+
+				</form>
+			</div>
+		</div>
+		<footer>
+
+		</footer>
 	</div>
 
 	</body>

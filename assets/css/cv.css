@@ -245,7 +245,7 @@ h5 {
 	position: relative;
 	margin: auto;
 	padding-left: 20px;
-	background-color: transparent;;
+	background-color: transparent;
 }
 
 .div3-container-back {
@@ -264,7 +264,6 @@ h4.bio {
 }
 
 p.bio {
-
 	text-align: left;
 	line-height: 1.25em;
 	font-size: 16px;
@@ -287,6 +286,7 @@ p.bio {
 	position: relative;
 	background-color: transparent;
 	height: 200px;
+	border: 1px solid transparent;
 }
 
 .div4-container-back {
@@ -299,7 +299,6 @@ p.bio {
 .cv-head, .cv-subhead {
 	text-align: center;
 	height: 50px;
-
 }
 
 .cv-head {
@@ -307,3 +306,36 @@ p.bio {
 }
 
 /*************************************** DIV 5 ****************************************/
+
+.div5-container {
+	font-family: smith;
+	margin-top: 100px;
+}
+
+.div5-container-front {
+	width: 980px;
+	position: relative;
+	margin: auto;
+	padding-left: 20px;
+	background-color: transparent;
+}
+
+h1.cv {
+	font-size: 32px;
+	font-family: smith;;
+}
+
+h4.cv {
+	font-family: smith;
+	font-weight: lighter;
+	margin-bottom: 10px;
+}
+
+p.cv {
+	text-align: left;
+	line-height: 1.25em;
+	font-size: 16px;
+	width: 90%;
+	font-family: smith;
+	font-weight: lighter;
+}

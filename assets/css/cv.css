@@ -18,6 +18,7 @@ body {
 	margin: 0;
 	background-color: #white;
 	font-family: smith, Fallback, sans-serif;
+	min-width: 960px;
 }
 
 /*************************************** NAV ****************************************/
@@ -392,7 +393,7 @@ a.pgm:hover {
 }
 p.line5 {
 	line-height: 1.5;
-	
+
 }
 
 input {

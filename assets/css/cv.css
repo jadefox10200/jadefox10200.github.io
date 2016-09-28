@@ -1,3 +1,10 @@
+@font-face {
+    font-family: smith;
+    src: url(open_sans/OpenSans-Regular.ttf);
+}
+
+/*@import url(//fonts.googleapis.com/css?family=Open+Sans);*/
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -10,13 +17,12 @@ body {
 	padding-bottom: 20px;
 	margin: 0;
 	background-color: #white;
+	font-family: smith, Fallback, sans-serif;
 }
 
 /*************************************** NAV ****************************************/
 
 .nav {
-	font-weight: lighter;
-	font-family: sans-serif;
 	color: #666;
 }
 
@@ -64,7 +70,6 @@ span.top-left {
 .top-right {
 	position: relative;
 	top: 50%;
-	transform: translate(0, -50%);
 	padding-right: 20px;
 }
 
@@ -78,7 +83,7 @@ span.top-left {
 span.bottom-left {
 	margin-left: 20px;
 	font-size: 24px;
-	font-family: sans-serif;
+	font-family: smith;
 	color: black;
 	position: absolute;
 	top: 30%;
@@ -91,7 +96,7 @@ span.bottom-left {
 	top: 50%;
 	left: 50%;
 	text-align: right;
-	transform: translate(0%, +10%);
+	transform: translate(0%, +25%);
 }
 
 .nav-middle {
@@ -114,6 +119,11 @@ span.bottom-left {
 }
 
 ul {
+	display: inline;
+}
+
+li {
+	list-style: none;
 	display: inline;
 }
 
@@ -193,7 +203,7 @@ button.hackerrank {
 	margin: auto;
 	text-align: center;
 	color: white;
-	font-family: sans-serif;
+	font-family: smith;
 	font-weight: lighter;
 	line-height: 1.55em;
 	position: relative;
@@ -203,14 +213,14 @@ button.hackerrank {
 }
 
 h5 {
-	font: normal normal normal 56px/1.25em sans-serif;
+	font: normal normal normal 56px/1.25em smith;
 	margin: 0;
 }
 
 /*************************************** DIV 2 ****************************************/
 
 .div2-container {
-	font-family: sans-serif;
+	font-family: smith;
 }
 
 .div2-container-front {
@@ -244,12 +254,12 @@ h5 {
 
 h2.bio {
 	font-size: 32px;
-	font-family: sans-serif;;
+	font-family: smith;;
 	line-height: .075em;
 }
 
 h4.bio {
-	font-family: sans-serif;
+	font-family: smith;
 	font-weight: lighter;
 }
 
@@ -259,7 +269,7 @@ p.bio {
 	line-height: 1.25em;
 	font-size: 16px;
 	width: 75%;
-	font-family: sans-serif;
+	font-family: smith;
 	font-weight: lighter;
 }
 
@@ -267,7 +277,7 @@ p.bio {
 
 .div4-container {
 	color: white;
-	font-family: sans-serif;
+	font-family: smith;
 	margin-top: 100px;
 }
 

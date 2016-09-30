@@ -232,11 +232,29 @@ h5 {
 
 .div2-container-back {
 	background-image: url("../img/ocean.jpg");
-	width: 100%;
-	height: 700px;
-	overflow: visible;
+	z-index: 2;
+	/* lt ie8 */
+    -ms-background-position-x: center;
+    -ms-background-position-y: bottom;
+    background-position: center center;
+
+    /* scale bg image proportionately */
+    background-size: cover;
+
+    /* ie8 workaround - http://louisremi.github.io/background-size-polyfill/ */
+    -ms-behavior: url(https://cdn.css-tricks.com/backgroundsize.min.htc);
+    /* prevent scaling past src width (or not) */
+    /* max-width: 1200px; */
 }
 
+/* example media queries */
+@media only screen and (min-width : 768px) {
+  .div2-container-back { height: 320px; }
+}
+
+@media only screen and (min-width : 1200px) {
+  .div2-container-back  { height: 500px; }
+}
 /*************************************** DIV 3 ****************************************/
 
 .div3-container {
@@ -426,7 +444,7 @@ input#email {
 }
 button#submit {
 	border: none;
-	background-color: transparent;;
+	background-color: transparent;
 	margin: auto;
 	font-size: 16px;
 }
@@ -459,4 +477,5 @@ form {
 footer {
 	height: 200px;
 	position: relative;
+	text-align: center;
 }

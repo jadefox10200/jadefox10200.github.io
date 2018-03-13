@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 )
@@ -25,6 +26,7 @@ func main() {
 	})
 
 	//Start server
+	fmt.Println("Setting listener to :8080")
 	err := http.ListenAndServe(":8080", nil)
 	if err != nil {
 		log.Fatal("ERROR Starting server: ", err)

@@ -1,6 +1,19 @@
+@font-face {
+    font-family: smith;
+    src: url(open_sans/OpenSans-Regular.ttf);
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 960px;
+	font-family: smith, Fallback, sans-serif;
+	min-width: 960px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -40,4 +53,14 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+#profilePhoto {
+	border-radius: 300px 300px;
+	width: 300px;
+	height: 300px;
+}
+
+.center-it {
+	text-align: center;
 }
